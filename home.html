@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Osu!</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="home.css">
+    
+</head>
+<body>
+    <header>
+        <div class="header-background-child"></div>
+        <div class="title">
+            <div class="dashboard-title">
+                <img src="img/dashboard-icon.svg" alt="dashboard-icon" class="dashboard-icon">
+                <p>dashboard</p>
+            </div>
+            <div class="sub-title">
+                <ul>
+                    <li>
+                        <a class="sub-title-dashboard" href="#">dashboard</a>
+                    </li>
+                    <li>
+                        <a class="sub-title-friends" href="#">friends</a>  
+                    </li>
+                    <li>
+                        <a class="sub-title-watchlists" href="#">watchlists</a>
+                    </li>
+                    <li>
+                        <a class="sub-title-account-settings" href="#">account settings</a>
+                    </li>
+                </ul>
+                <hr>
+            </div>
+        </div>
+    </header>
+    <nav>
+        <div class="nav-left">
+            <img src="img/osu-logo-white.59d385da.svg" class="osu-logo" alt="osu-logo">
+            <div class="dropdown">
+                <p class="dropdown-title-home">home</p>
+                <div class="home-content" id="home-content">
+                    <a href="#" class="home-news">news</a>
+                    <a href="#" class="home-team">team</a>
+                    <a href="#" class="home-changelog">changelog</a>
+                    <a href="#" class="home-download">download</a>
+                    <a href="#" class="home-search">search</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <p class="dropdown-title-beatmaps">beatmaps</p>
+                <div class="home-content" id="beatmaps-content">
+                    <a href="#" class="home-beatmap-listing">beatmap listing</a>
+                    <a href="#" class="home-featured-artist">featured artist</a>
+                    <a href="#" class="home-beatmaps-packs">beatmap packs</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <p class="dropdown-title-rankings">rankings</p>
+                <div class="home-content" id="rankings-content">
+                    <a href="#" class="home-beatmap-listing">performance</a>
+                    <a href="#" class="home-featured-artist">spotlights</a>
+                    <a href="#" class="home-beatmaps-packs">score</a>
+                    <a href="#" class="home-beatmap-listing">country</a>
+                    <a href="#" class="home-featured-artist">multiplayer</a>
+                    <a href="#" class="home-beatmaps-packs">kudosu</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <p class="dropdown-title-community">community</p>
+                <div class="home-content" id="community-content">
+                    <a href="#" class="home-beatmap-listing">forum</a>
+                    <a href="#" class="home-featured-artist">chat</a>
+                    <a href="#" class="home-beatmaps-packs">contest</a>
+                    <a href="#" class="home-beatmap-listing">country</a>
+                    <a href="#" class="home-featured-artist">tournamets</a>
+                    <a href="#" class="home-beatmaps-packs">live steams</a>
+                    <a href="#" class="home-beatmaps-packs">developments</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <p class="dropdown-title-store">store</p>
+                <div class="home-content" id="store-content">
+                    <a href="#" class="home-beatmap-listing">product</a>
+                    <a href="#" class="home-featured-artist">cart</a>
+                    <a href="#" class="home-beatmaps-packs">order history</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <p class="dropdown-title-helps">helps</p>
+                <div class="home-content" id="helps-content">
+                    <a href="#" class="home-beatmap-listing">wiki</a>
+                    <a href="#" class="home-featured-artist">faq</a>
+                    <a href="#" class="home-beatmaps-packs">rules</a>
+                    <a href="#" class="home-featured-artist">report abuse</a>
+                    <a href="#" class="home-beatmaps-packs">no, really, i need help!</a>
+                </div>
+            </div>
+            <img src="img/search-icon.svg" class="search-icon" alt="search">
+            <div class="nav-overlay"></div>
+        </div>
+        <div class="nav-right">
+            <a href="#" class="twitter">
+                <img src="img/twitter-icon.svg" alt="twitter">
+            </a>
+            <a href="#" class="love">
+                <!-- <img src="img/love.svg" alt="love"> -->
+                <svg id="love" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18.78 17.95"><defs></defs><path class="cls-1" d="M16,9.1l-.29-.32A5.06,5.06,0,0,0,12,7,5.18,5.18,0,0,0,8.19,8.78a6.32,6.32,0,0,0,0,8.37l.86,1L14,23.55A5.07,5.07,0,0,0,16,25a4.74,4.74,0,0,0,2-1.42L23,18.11l.86-1A6.18,6.18,0,0,0,25.39,13a6.3,6.3,0,0,0-1.57-4.21,4.94,4.94,0,0,0-7.55,0Z" transform="translate(-6.61 -7.03)"/></svg>
+            </a>
+            <a href="#" class="flag">
+                <img src="img/flag.svg" alt="flag">
+            </a>
+            <a href="#" class="chat">
+                <img src="img/chat.svg" alt="chat">
+                <p>0</p>
+            </a>
+            <a href="#" class="inbox">
+                <img src="img/inbox.svg" alt="inbox">
+                <p>0</p>
+            </a>
+            <a href="#" class="avatar">
+                <img src="img/avatar.png" alt="avatar">
+            </a>
+        </div>
+        <div class="nav-overlay"></div>
+    </nav>
+
+    <div class="nav-overlay"></div>
+
+    <div class="main-home">
+        <div class="main-home-left">
+            <p class="news-headlines">News</p>
+            <div class="news-1">
+                <img src="img/new-1.jpg" alt="">
+                <div class="news-1-explaination">
+                    <div class="news-1-date">
+                        <p class="news-1-numberdate">25</p>
+                        <p class="news-1-month">Aug 2021</p>
+                    </div>
+                    <div class="news-1-line"></div>
+                    <div class="news-1-contex">
+                        <p class="news-1-title">New Featured Artist: technoplanet</p>
+                        <p class="news-1-content">technoplanet traverses the galaxy and lands in our collection of Featured Artists!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="news-2">
+                <img src="img/new-2.jpg" alt="">
+                <div class="news-1-explaination">
+                    <div class="news-1-date">
+                        <p class="news-1-numberdate">23</p>
+                        <p class="news-1-month">Aug 2021</p>
+                    </div>
+                    <div class="news-1-line"></div>
+                    <div class="news-1-contex">
+                        <p class="news-1-title">Summer 2021 Track and Field Fanart Contest Results</p>
+                        <p class="news-1-content">The race is over — now witness the podium finish in all its glory with 15 new Summer seasonal backgrounds!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="news-3">
+                <img src="img/new-3.jpg" alt="">
+                <div class="news-1-explaination">
+                    <div class="news-1-date">
+                        <p class="news-1-numberdate">21</p>
+                        <p class="news-1-month">Aug 2021</p>
+                    </div>
+                    <div class="news-1-line"></div>
+                    <div class="news-1-contex">
+                        <p class="news-1-title">New Featured Artist: Wiklund</p>
+                        <p class="news-1-content">Retro composer Wiklund climbs on board as our latest Featured Artist!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="more-news">
+                <div class="more-news-1">
+                    <div class="more-news-1-date">
+                        <p class="more-news-1-number-date">19</p>
+                        <p class="more-news-1-month">Aug</p>
+                    </div>
+                    <div class="more-news-1-line"></div>
+                    <a href="#" class="more-news-1-title">Project Loved: August 2021</a>
+                </div>
+                <div class="more-news-2">
+                    <div class="more-news-1-date">
+                        <p class="more-news-1-number-date">18</p>
+                        <p class="more-news-1-month">Aug</p>
+                    </div>
+                    <div class="more-news-1-line"></div>
+                    <p class="more-news-1-title">New Featured Artist: Aether</p>
+                </div>
+                <div class="more-news-3">
+                    <div class="more-news-1-date">
+                        <p class="more-news-1-number-date">17</p>
+                        <p class="more-news-1-month">Aug</p>
+                    </div>
+                    <div class="more-news-1-line"></div>
+                    <p class="more-news-1-title">Performance Points & Star Rating Survey</p>
+                </div>
+                <div class="more-news-4">
+                    <div class="more-news-1-date">
+                        <p class="more-news-1-number-date">15</p>
+                        <p class="more-news-1-month">Aug</p>
+                    </div>
+                    <div class="more-news-1-line"></div>
+                    <p class="more-news-1-title">Summer 2021 Track and Field Fanart Contest Voting Open!</p>
+                </div>
+                <div class="more-news-5">
+                    <div class="more-news-1-date">
+                        <p class="more-news-1-number-date">14</p>
+                        <p class="more-news-1-month">Aug</p>
+                    </div>
+                    <div class="more-news-1-line"></div>
+                    <p class="more-news-1-title">New Featured Artist: rN</p>
+                </div>
+                <div class="more-news-6">
+                    <div class="more-news-1-date">
+                        <p class="more-news-1-number-date">11</p>
+                        <p class="more-news-1-month">Aug</p>
+                    </div>
+                    <div class="more-news-1-line"></div>
+                    <p class="more-news-1-title">New Featured Artist: Natsume Itsuki</p>
+                </div>
+            </div>
+            <div class="see-more">
+                <a href="#">see more</a>
+            </div>
+        </div>
+        <div class="main-home-right">
+            <button class="download">
+                <p>Download osu!</p>
+                <img src="img/icon-download.svg" alt="" srcset="">
+            </button>
+            <button class="support">
+                <p>Support osu!</p>
+                <img src="img/love.svg" alt="" srcset="">
+            </button>
+            <button class="cart">
+                <p>osu!store</p>
+                <img src="img/icon-cart.svg" alt="" srcset="">
+            </button>
+            <div class="new-ranked-beatmaps">
+                <p class="new-ranked-beatmaps-title">New Ranked Beatmaps</p>
+                <div class="new-ranked-beatmaps-songs">
+                    <img src="img/beatmaps/list.jpg" alt="" srcset="" class="beatmaps-cover">
+                    <div class="new-ranked-beatmaps-songs-desc">
+                        <p class="songs-title">Y.Y.Y. Keikaku!!! (Game Ver.)</p>
+                        <p class="songs-origin">R.B.P.</p>
+                        <div class="beatmaps-author">
+                            <p class="author-name">by AutotelicBrown</p>
+                            <p class="time-upload">6 hours ago</p>
+                        </div>
+                    </div>
+                    <svg id="next" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 8.84 14.4"><defs></defs><rect class="cls-1" x="14.84" y="13.69" width="2.32" height="10.17" transform="translate(2.45 34.57) rotate(-135)"/><rect class="cls-1" x="14.84" y="8.13" width="2.32" height="10.17" transform="translate(-16.24 6.38) rotate(-45)"/></svg>
+                </div>
+                <div class="new-ranked-beatmaps-songs">
+                    <img src="img/beatmaps/list (1).jpg" alt="" srcset="" class="beatmaps-cover">
+                    <div class="new-ranked-beatmaps-songs-desc">
+                        <p class="songs-title">Happy Time wa Owaranai (Cut Ver.)</p>
+                        <p class="songs-origin">Nanamori-chu * Goraku-bu</p>
+                        <div class="beatmaps-author">
+                            <p class="author-name">by diamant66</p>
+                            <p class="time-upload">12 hours ago</p>
+                        </div>
+                    </div>
+                    <svg id="next" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 8.84 14.4"><defs></defs><rect class="cls-1" x="14.84" y="13.69" width="2.32" height="10.17" transform="translate(2.45 34.57) rotate(-135)"/><rect class="cls-1" x="14.84" y="8.13" width="2.32" height="10.17" transform="translate(-16.24 6.38) rotate(-45)"/></svg>
+                </div>
+                <div class="new-ranked-beatmaps-songs">
+                    <img src="img/beatmaps/list (2).jpg" alt="" srcset="" class="beatmaps-cover">
+                    <div class="new-ranked-beatmaps-songs-desc">
+                        <p class="songs-title">We'll Be Alright</p>
+                        <p class="songs-origin">RADWIMPS</p>
+                        <div class="beatmaps-author">
+                            <p class="author-name">by Elayue</p>
+                            <p class="time-upload">8 hours ago</p>
+                        </div>
+                    </div>
+                    <svg id="next" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 8.84 14.4"><defs></defs><rect class="cls-1" x="14.84" y="13.69" width="2.32" height="10.17" transform="translate(2.45 34.57) rotate(-135)"/><rect class="cls-1" x="14.84" y="8.13" width="2.32" height="10.17" transform="translate(-16.24 6.38) rotate(-45)"/></svg>
+                </div>
+                <div class="new-ranked-beatmaps-songs">
+                    <img src="img/beatmaps/list (3).jpg" alt="" srcset="" class="beatmaps-cover">
+                    <div class="new-ranked-beatmaps-songs-desc">
+                        <p class="songs-title">Hastur (Extended Mix)</p>
+                        <p class="songs-origin">USAO</p>
+                        <div class="beatmaps-author">
+                            <p class="author-name">by Regou</p>
+                            <p class="time-upload">7 hours ago</p>
+                        </div>
+                    </div>
+                    <svg id="next" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 8.84 14.4"><defs></defs><rect class="cls-1" x="14.84" y="13.69" width="2.32" height="10.17" transform="translate(2.45 34.57) rotate(-135)"/><rect class="cls-1" x="14.84" y="8.13" width="2.32" height="10.17" transform="translate(-16.24 6.38) rotate(-45)"/></svg>
+                </div>
+                <div class="new-ranked-beatmaps-songs">
+                    <img src="img/beatmaps/list (4).jpg" alt="" srcset="" class="beatmaps-cover">
+                    <div class="new-ranked-beatmaps-songs-desc">
+                        <p class="songs-title">Vagrant (feat. Veela) (Cut Ver.)</p>
+                        <p class="songs-origin">Feint</p>
+                        <div class="beatmaps-author">
+                            <p class="author-name">by Juansy-</p>
+                            <p class="time-upload">49 minutes ago</p>
+                        </div>
+                    </div>
+                    <svg id="next" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 8.84 14.4"><defs></defs><rect class="cls-1" x="14.84" y="13.69" width="2.32" height="10.17" transform="translate(2.45 34.57) rotate(-135)"/><rect class="cls-1" x="14.84" y="8.13" width="2.32" height="10.17" transform="translate(-16.24 6.38) rotate(-45)"/></svg>
+                </div>
+            </div>
+            <div class="popular-beatmaps">
+                <p class="new-ranked-beatmaps-title">Popular Beatmaps</p>
+                <div class="new-ranked-beatmaps-songs">
+                    <img src="img/beatmaps/list (5).jpg" alt="" srcset="" class="beatmaps-cover">
+                    <div class="new-ranked-beatmaps-songs-desc">
+                        <p class="songs-title">true DJ MAG top ranker's song Zenpen (katagiri Remix)</p>
+                        <p class="songs-origin">sabi</p>
+                        <div class="beatmaps-author">
+                            <p class="author-name">by Nathan</p>
+                            <svg id="love-popular-beatmaps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18.78 17.95"><defs></defs><path class="cls-1" d="M16,9.1l-.29-.32A5.06,5.06,0,0,0,12,7,5.18,5.18,0,0,0,8.19,8.78a6.32,6.32,0,0,0,0,8.37l.86,1L14,23.55A5.07,5.07,0,0,0,16,25a4.74,4.74,0,0,0,2-1.42L23,18.11l.86-1A6.18,6.18,0,0,0,25.39,13a6.3,6.3,0,0,0-1.57-4.21,4.94,4.94,0,0,0-7.55,0Z" transform="translate(-6.61 -7.03)"/></svg>
+                            <p class="time-upload">4,058</p>
+                        </div>
+                    </div>
+                    <svg id="next" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 8.84 14.4"><defs></defs><rect class="cls-1" x="14.84" y="13.69" width="2.32" height="10.17" transform="translate(2.45 34.57) rotate(-135)"/><rect class="cls-1" x="14.84" y="8.13" width="2.32" height="10.17" transform="translate(-16.24 6.38) rotate(-45)"/></svg>
+                </div>
+                <div class="new-ranked-beatmaps-songs">
+                    <img src="img/beatmaps/list@2x.jpg" alt="" srcset="" class="beatmaps-cover">
+                    <div class="new-ranked-beatmaps-songs-desc">
+                        <p class="songs-title">Good-bye sengen</p>
+                        <p class="songs-origin">Uruha Rushia</p>
+                        <div class="beatmaps-author">
+                            <p class="author-name">by Akito</p>
+                            <svg id="love-popular-beatmaps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18.78 17.95"><defs></defs><path class="cls-1" d="M16,9.1l-.29-.32A5.06,5.06,0,0,0,12,7,5.18,5.18,0,0,0,8.19,8.78a6.32,6.32,0,0,0,0,8.37l.86,1L14,23.55A5.07,5.07,0,0,0,16,25a4.74,4.74,0,0,0,2-1.42L23,18.11l.86-1A6.18,6.18,0,0,0,25.39,13a6.3,6.3,0,0,0-1.57-4.21,4.94,4.94,0,0,0-7.55,0Z" transform="translate(-6.61 -7.03)"/></svg>
+                            <p class="time-upload">368</p>
+                        </div>
+                    </div>
+                    <svg id="next" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 8.84 14.4"><defs></defs><rect class="cls-1" x="14.84" y="13.69" width="2.32" height="10.17" transform="translate(2.45 34.57) rotate(-135)"/><rect class="cls-1" x="14.84" y="8.13" width="2.32" height="10.17" transform="translate(-16.24 6.38) rotate(-45)"/></svg>
+                </div>
+                <div class="new-ranked-beatmaps-songs">
+                    <img src="img/beatmaps/list (6).jpg" alt="" srcset="" class="beatmaps-cover">
+                    <div class="new-ranked-beatmaps-songs-desc">
+                        <p class="songs-title">Cheia de Manias (Cut Ver.)</p>
+                        <p class="songs-origin">Raca Negra</p>
+                        <div class="beatmaps-author">
+                            <p class="author-name">by Akaeboshi</p>
+                            <svg id="love-popular-beatmaps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18.78 17.95"><defs></defs><path class="cls-1" d="M16,9.1l-.29-.32A5.06,5.06,0,0,0,12,7,5.18,5.18,0,0,0,8.19,8.78a6.32,6.32,0,0,0,0,8.37l.86,1L14,23.55A5.07,5.07,0,0,0,16,25a4.74,4.74,0,0,0,2-1.42L23,18.11l.86-1A6.18,6.18,0,0,0,25.39,13a6.3,6.3,0,0,0-1.57-4.21,4.94,4.94,0,0,0-7.55,0Z" transform="translate(-6.61 -7.03)"/></svg>
+                            <p class="time-upload">365</p>
+                        </div>
+                    </div>
+                    <svg id="next" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 8.84 14.4"><defs></defs><rect class="cls-1" x="14.84" y="13.69" width="2.32" height="10.17" transform="translate(2.45 34.57) rotate(-135)"/><rect class="cls-1" x="14.84" y="8.13" width="2.32" height="10.17" transform="translate(-16.24 6.38) rotate(-45)"/></svg>
+                </div>
+                <div class="new-ranked-beatmaps-songs">
+                    <img src="img/beatmaps/list (7).jpg" alt="" srcset="" class="beatmaps-cover">
+                    <div class="new-ranked-beatmaps-songs-desc">
+                        <p class="songs-title">Sugar</p>
+                        <p class="songs-origin">Maroon 5</p>
+                        <div class="beatmaps-author">
+                            <p class="author-name">by Ayate</p>
+                            <svg id="love-popular-beatmaps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18.78 17.95"><defs></defs><path class="cls-1" d="M16,9.1l-.29-.32A5.06,5.06,0,0,0,12,7,5.18,5.18,0,0,0,8.19,8.78a6.32,6.32,0,0,0,0,8.37l.86,1L14,23.55A5.07,5.07,0,0,0,16,25a4.74,4.74,0,0,0,2-1.42L23,18.11l.86-1A6.18,6.18,0,0,0,25.39,13a6.3,6.3,0,0,0-1.57-4.21,4.94,4.94,0,0,0-7.55,0Z" transform="translate(-6.61 -7.03)"/></svg>
+                            <p class="time-upload">185</p>
+                        </div>
+                    </div>
+                    <svg id="next" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 8.84 14.4"><defs></defs><rect class="cls-1" x="14.84" y="13.69" width="2.32" height="10.17" transform="translate(2.45 34.57) rotate(-135)"/><rect class="cls-1" x="14.84" y="8.13" width="2.32" height="10.17" transform="translate(-16.24 6.38) rotate(-45)"/></svg>
+                </div>
+                <div class="new-ranked-beatmaps-songs">
+                    <img src="img/beatmaps/list (8).jpg" alt="" srcset="" class="beatmaps-cover">
+                    <div class="new-ranked-beatmaps-songs-desc">
+                        <p class="songs-title">Wet Hands</p>
+                        <p class="songs-origin">C418</p>
+                        <div class="beatmaps-author">
+                            <p class="author-name">by jschlatt</p>
+                            <svg id="love-popular-beatmaps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18.78 17.95"><defs></defs><path class="cls-1" d="M16,9.1l-.29-.32A5.06,5.06,0,0,0,12,7,5.18,5.18,0,0,0,8.19,8.78a6.32,6.32,0,0,0,0,8.37l.86,1L14,23.55A5.07,5.07,0,0,0,16,25a4.74,4.74,0,0,0,2-1.42L23,18.11l.86-1A6.18,6.18,0,0,0,25.39,13a6.3,6.3,0,0,0-1.57-4.21,4.94,4.94,0,0,0-7.55,0Z" transform="translate(-6.61 -7.03)"/></svg>
+                            <p class="time-upload">182</p>
+                        </div>
+                    </div>
+                    <svg id="next" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 8.84 14.4"><defs></defs><rect class="cls-1" x="14.84" y="13.69" width="2.32" height="10.17" transform="translate(2.45 34.57) rotate(-135)"/><rect class="cls-1" x="14.84" y="8.13" width="2.32" height="10.17" transform="translate(-16.24 6.38) rotate(-45)"/></svg>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="footer-tools">
+            <a href="#">Terms</a>
+            <a href="#">Privacy</a>
+            <a href="#">Copyright (DMCA)</a>
+            <a href="#">Server Status</a>
+            <a href="#">Source Code</a>
+        </div>
+        <p>ppy powered 2007-2021</p>
+    </footer>
+</body>
+</html>
+<style>
+    
+</style>

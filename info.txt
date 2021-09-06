@@ -1,0 +1,5 @@
+Osu! Website
+- Font : Exo 2(free), Torus Bod(paid)
+Tools:
+- Adobe Illustrator 2021 | making icon
+- HTML, CSS | VS Code
